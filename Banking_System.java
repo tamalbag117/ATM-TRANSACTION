@@ -83,8 +83,8 @@ class InnerBankingSystem {
             } else if (amount == 0) {
                 System.out.println("Withdrawal amount is zero.");
             }
-        } else {
-
+        } else 
+        {
             System.out.println("You have insufficient amount balance. Can't process withdrawal operation.");
         }
     }
